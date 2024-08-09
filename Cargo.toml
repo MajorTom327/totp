@@ -1,0 +1,10 @@
+[package]
+name = "totp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.14", features = ["derive"] }
+data-encoding = "2.6.0"
+hmac = "0.12.1"
+sha1 = "0.10.6"
